@@ -2,7 +2,7 @@ let lastIP = null;
 let logTableVisible = false;
 
 async function fetchIPInfo() {
-    const response = await fetch('https://ipinfo.io/json?token=606814b0ae95e9');
+    const response = await fetch('https://ipinfo.io/json?token=YOUR_IPINFO_TOKEN');
     const data = await response.json();
     return data;
 }
